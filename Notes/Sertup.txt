@@ -1,0 +1,15 @@
+Plugins:
+JavaScript (ES6) code snippets
+ESLint
+REST Client
+npm Intellisense
+JavaScript standardjs styled snippets
+Visual Studio IntelliCode
+Node.js Extension Pack
+
+jQuery Code Snippets
+Jasmine code snippets
+
+
+Need to install Node JS.
+https://nodejs.org/en/

@@ -1,3 +1,6 @@
 https://htmlcheatsheet.com/js/
 
 Lessons:
+
+freecodecamp: 
+https://www.freecodecamp.org/news/scope-and-closures-in-javascript/

@@ -45,6 +45,17 @@ var plus = function(){
     return sum;
 }
 
+// (function() {
+//     console.log('foo');
+// })();
+
+var ray =(function(){
+    return {
+        speak: function(){
+            console.log('hello');
+        }
+    };
+})();
 
 Dog.prototype.speak = speak;
 Cat.prototype.speak= speak;
@@ -72,3 +83,4 @@ speaks.call(saySomething, saySomething.normal);
 speaks.apply(saySomething, ['meouff']);
 
 console.log(plus(2,2,2,3,2,3,4))
+

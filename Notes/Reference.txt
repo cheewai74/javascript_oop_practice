@@ -4,3 +4,5 @@ Lessons:
 
 freecodecamp: 
 https://www.freecodecamp.org/news/scope-and-closures-in-javascript/
+
+mouse right click on index.html > run with live server.

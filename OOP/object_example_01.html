@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function Dog(name, breed){
+            var new_dog = this; // the new object
+            new_dog.name = name;
+            new_dog.breed = breed;
+        }
+
+        var snoopy = new Dog("Snoopy", "Beagle");
+        var leslie = new Dog("Leslie", "Collie");
+
+        console.log(snoopy.breed);
+
+        Dog.prototype.speak = function(){
+            return "Woof! Woof!";
+        }
+
+        alert(snoopy.speak());
+        console.log(leslie.speak());
+
+        Dog.prototype.who_am_I = function(){
+            return "I'm this " + this.name;
+        }
+
+        alert(snoopy.who_am_I());
+
+        Dog.prototype.diet = "Carnivore";
+        alert(leslie.diet());
+
+    </script>
+</body>
+</html>

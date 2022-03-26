@@ -1,1 +1,1 @@
-type ! then click on it to create a html template.
+type ! , CTRL + SPACE, then click on it to create a html template.

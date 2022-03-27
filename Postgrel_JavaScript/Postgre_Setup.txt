@@ -1,0 +1,3 @@
+npm install pg or npm install –g pg
+
+https://www.tothenew.com/blog/connect-to-postgresql-using-javascript/

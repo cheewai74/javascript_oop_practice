@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------------
+||      Method                  ||          Description                             ||
+-------------------------------------------------------------------------------------
+|   write("string")             |   Writes the given string on the document.        |
+-------------------------------------------------------------------------------------
+|   writeln("string")           |   Writes the given string on the document with    |
+|                               |   newline character at the end.                   |
+-------------------------------------------------------------------------------------
+|   getElementById()            |   Returns the element havingthe given id value.   |
+-------------------------------------------------------------------------------------
+|   getElementsByName()         |   Returns all the elements having the given name  |
+|                               |   value.                                          |
+-------------------------------------------------------------------------------------
+|   getElementsByTagName()      |   Returns all the elements having the given tag   |
+|                               |   name.                                           |
+-------------------------------------------------------------------------------------
+|   getElementsByClassName()    |   Returns all the elements having the given       |
+|                               |   class name.                                     |
+-------------------------------------------------------------------------------------

@@ -1,1 +1,55 @@
 https://javascript.pythoncheatsheet.org/#objects-for-lookups
+
+
+--------------------------------------------------------------------------------------------------------------
+||          Methods                         ||          Description                                         ||
+--------------------------------------------------------------------------------------------------------------
+|       Object.assign()                     |   This method is used to copy enumerable and own properties   |
+|                                           |   from a source object to a target object                     |
+--------------------------------------------------------------------------------------------------------------
+|       Object.create()                     |   This method is used to create a new object with the         |
+|                                           |   specified prototype object and properties.                  |
+--------------------------------------------------------------------------------------------------------------
+|       Object.defineProperty()             |   This method is used to create or configure multiple object  |
+|                                           |   properties.                                                 |
+--------------------------------------------------------------------------------------------------------------
+|       Object.entries()                    |   This method returns an array with arrays of the key, value  |
+|                                           |   pairs.                                                      |
+--------------------------------------------------------------------------------------------------------------
+|       Object.freeze()                     |   This method prevents existing properties from being removed |
+--------------------------------------------------------------------------------------------------------------
+|       Object.getOwnPropertyDescriptor()   |   This method returns all a property descriptor for the       |
+|                                           |   specified property of the specified object.                 |
+--------------------------------------------------------------------------------------------------------------
+|       Object.getOwnPropertyDescriptors()  |   This method returns all own property descriptors of a given |
+|                                           |   object.                                                     |
+--------------------------------------------------------------------------------------------------------------
+|       Object.getOwnProperttNames()        |   This method returns an array of all properties (enumerable  |  
+|                                           |   or not) found.                                              |
+--------------------------------------------------------------------------------------------------------------  
+|       Object.getOwnPropetySymbols()       |   This method returns an array of all own symbol key          | 
+|                                           |   properties                                                  |
+--------------------------------------------------------------------------------------------------------------
+|       Object.getPrototypeOf()             |   This method returns the prototype of the specified object   |
+--------------------------------------------------------------------------------------------------------------
+|       Object.is()                         |   This method determines 2 values are the same values         |
+--------------------------------------------------------------------------------------------------------------
+|       Object.isExtensible()               |   This method determines if an obj is extensible              |
+--------------------------------------------------------------------------------------------------------------
+|       Object.isFrozen()                   |   This method determines if an obj is frozen                  |
+--------------------------------------------------------------------------------------------------------------
+|       Object.isSealed()                   |   This method determines if an obj is sealed                  |
+--------------------------------------------------------------------------------------------------------------
+|       Object.iskeys()                     |   This method returns an array of a given obj own property    | 
+|                                           |   names                                                       |
+--------------------------------------------------------------------------------------------------------------
+|       Object.preventExtensions()          |   This method is used to prevent any extension of an obj      |
+--------------------------------------------------------------------------------------------------------------
+|       Object.seal()                       |   This method prevents new properties from being added and    |
+|                                           |   marks all existing properties as non-configurable           |
+--------------------------------------------------------------------------------------------------------------
+|       Object.setPrototypeOf()             |   This method sets the prototype of a specified obj to another|
+|                                           |   object.                                                     |
+--------------------------------------------------------------------------------------------------------------
+|       Object.values()                     |   This method returns an array of values                      |
+--------------------------------------------------------------------------------------------------------------

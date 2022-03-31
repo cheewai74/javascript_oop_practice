@@ -1,0 +1,24 @@
+<!-- 
+    To declare javascript global var inside function, you need to use window obj.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Variables Inside Function</title>
+</head>
+<body>
+    <script>
+        // var value = 70
+        function m(){
+            window.value = 100;  // Declaring global variable by window objec
+        }
+        function n(){
+            m();
+            alert(window.value); // Accessing global variable from other function
+        }
+    </script>
+    <input type="button" onclick="n()" value="Accessing Global Function"
+</body>
+</html>

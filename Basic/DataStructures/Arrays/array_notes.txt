@@ -1,0 +1,55 @@
+---------------------------------------------------------------------------------------------
+||  Method          ||  Description                                                         ||
+---------------------------------------------------------------------------------------------
+|   concat()        |   It returns a new array object that contains 2 or more merged        | 
+|                   |   arrays.                                                             |
+---------------------------------------------------------------------------------------------
+|   copywithin()    |   It copies the part of the given array with it's own elements and    |
+|                   |   returns the modified array.                                         |
+---------------------------------------------------------------------------------------------
+|   every()         |   It determines whether all the elements of an array are satisfying   |
+|                   |   the provided function conditions                                    |
+---------------------------------------------------------------------------------------------
+|   fill()          |   It fills elements into an array with static values                  |
+---------------------------------------------------------------------------------------------
+|   filter()        |   It returns the new array containing the elements that pass the      |
+|                   |   provided function conditions                                        |
+---------------------------------------------------------------------------------------------
+|   find()          |   It returns the value of the first element in the given array that   |
+|                   |   satisfies the specified condition.                                  |
+---------------------------------------------------------------------------------------------
+|   findIndex()     |   It returns the index value of the first element in the given array  |
+|                   |   that satisfies the specified condition                              |
+---------------------------------------------------------------------------------------------
+|   forEach()       |   It invokes the provided function once for each element of an array  |
+---------------------------------------------------------------------------------------------
+|   includes()      |   It checks whether the given array contains the specified element    |
+---------------------------------------------------------------------------------------------
+|   indexOf()       |   It searches the specified element in the given arrayand returns     |
+|                   |   of the first match.                                                 |
+---------------------------------------------------------------------------------------------
+|   join()          |   It joins the elements of an array as a string                       |
+---------------------------------------------------------------------------------------------
+|   lastIndexOf()   |   It searches the specified element in the given array and returns the|
+|                   |   index of the last match                                             |
+---------------------------------------------------------------------------------------------
+|   map()           |   It calls the specified function for every array element and returns |
+|                   |   the new array                                                       |
+---------------------------------------------------------------------------------------------
+|   pop()           |   It removes and returns the last elements of an array.               |
+---------------------------------------------------------------------------------------------
+|   push()          |   It adds one or more elements to the end of an array.                |
+---------------------------------------------------------------------------------------------
+|   reverse()       |   It reverse the elements of given array.                             |
+---------------------------------------------------------------------------------------------
+|   shift()         |   It removes and returns the first elementof an array                 |
+---------------------------------------------------------------------------------------------
+|   slice()         |   It returns a new array containing the copy of the part of the       |
+|                   |   given array                                                         |
+---------------------------------------------------------------------------------------------
+|   sort()          |   It returns the element of the given array in a sorted order.        |
+---------------------------------------------------------------------------------------------
+|   splice()        |   It add/remove elements to/from the given array.                     |
+---------------------------------------------------------------------------------------------
+|   unshift()       |   It adds one or more elements in the beginning of the given array.   |
+---------------------------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+<!-- 
+
+    The purpose of function constructor is to create a new function obj.
+
+    new Function([arg1[,arg2[,....argn]],]functionBody)
+    arg1, arg2,....,argn - It represents the argument used by function.
+    functionBody - It represents the function definition.
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Functions Object Examples</title>
+ </head>
+ <body>
+     <script>
+         var add = new Function("num1","num2","return num1 + num2");
+         document.writeln(add(2,5));
+     </script>
+     <script>
+         var pow = new Function("num1","num2","return Math.pow(num1,num2)");
+         document.writeln(pow(2,3));
+     </script>
+ </body>
+ </html>

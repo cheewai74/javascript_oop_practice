@@ -1,0 +1,32 @@
+<!-- 
+    Requirement:
+    1. email id must contain the @ and . character.
+    2. There must be at least 1 character before and after the @ 
+    3. There must be at least 2 characters after . (dot).
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Email Validation</title>
+ </head>
+ <body>
+     <script>
+         function validateemail(){
+             var x = document.myform.email.value;
+             var atposition = x.indexOf("@");
+             var dotposition = x.lastIndexOf(".");
+             if(atposition<1 || dotposition<atposition+2 ||dotposition+2 >= x.length){
+                 alert("Please enter a valid e-mail address \n atposition"+atposition+"\ndotposition:"+dotposition);
+                 return false
+             }
+         }
+     </script>
+     <form name="myform" method="post" onsubmit="validateemail();">
+     Email:<input type="text" name="email"><br/>
+     <input type="submit" value="register">
+     </form>
+ </body>
+ </html>

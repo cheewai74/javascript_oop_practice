@@ -1,4 +1,6 @@
 /**
+ * The javascript provides static methods that belong to the class instead of 
+ * an instance of that class. Instance is not required to call the static method.
  * 
  * 1.   The static keyword is used to declare a static method.
  * 
@@ -53,8 +55,11 @@ class Test{
 // console.log(Test.display());
 
 console.log(Test.display1());
+//document.writeln(Test.display1() + "<br/>");
 console.log(Test.display2());
+//document.writeln(Test.display2() + "<br/>");
 
 // 4.   If we declare more than 1 static method with a similar name,
 //      the javascript always invoke the last one
 console.log(Test.display());
+//document.writeln(Test.display() + "<br/>");

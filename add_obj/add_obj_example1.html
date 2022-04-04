@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add value of elements to set object</title>
+</head>
+<body>
+    <script>
+        var set = new Set();
+        set.add("jQuery");
+        set.add("AngularJS");
+        set.add("Bootstrap");
+        for(let elements of set){
+            document.writeln(elements+"<br/><br/><br/>");
+        }
+        document.writeln(set.has("Bootstrap")+"<br/>");
+        document.writeln(set.has("") +"<br/>");
+        document.writeln(set.has(5)+"<br/><br/><br/><br/>");
+
+        var itr = set.values();
+        for(i=0; i<set.size; i++){
+            document.writeln(itr.next().value +"<br>")
+        }
+    </script>
+</body>
+</html>

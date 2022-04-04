@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add the elements to set obj in the chainable form.</title>
+</head>
+<body>
+    <script>
+        var set = new Set();
+        set.add("jQuery").add("AngularJS").add("Bootstrap");
+        for(let elements of set){
+            document.writeln(elements+"<br/>");
+        }
+        document.writeln("Size before invoking clear() method:" + set.size + "<br\>");
+        set.clear();
+        document.writeln("Size after invoking clear() method:" + set.size + "<br\>");
+    </script>
+</body>
+</html>

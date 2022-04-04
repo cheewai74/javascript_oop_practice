@@ -1,0 +1,26 @@
+<!-- 
+    this keyword is a reference variable that refers to the current object.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this keyword</title>
+</head>
+<body>
+    <script>
+    var address={
+        company:"Google",
+        city:"Noida",
+        state:"UP",
+        fullAddress:function(){
+            return this.company+""+this.city+""+this.state;
+        }
+    };
+
+    var fetch = address.fullAddress();
+    document.writeln(fetch);
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!-- 
+    call() and apply() method allows us to write a method 
+    that can be used on different objects.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>call and apply method</title>
+ </head>
+ <body>
+     <script>
+         var emp_address ={
+             fullAddress: function(){
+                return this.company + "" + this.city +"" + this.state;
+             }
+         }
+
+         var address={
+             company: "totalsam",
+             city:"ChinaTown",
+             state:"Utah",
+         }
+
+         document.writeln(emp_address.fullAddress.call(address));
+         document.writeln(emp_address.fullAddress.apply(address));
+     </script>
+ </body>
+ </html>

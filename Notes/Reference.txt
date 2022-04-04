@@ -9,3 +9,5 @@ mouse right click on index.html > run with live server.
 
 mdn web docs (Impt)
 https://developer.mozilla.org/en-US/
+
+https://guides.emberjs.com/release/tutorial/part-1/orientation/

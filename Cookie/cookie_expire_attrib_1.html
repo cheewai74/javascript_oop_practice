@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Cookie Example 1</title>
+    <title>Cookie Expires Attributes</title>
 </head>
 <body>
     <input type="button" value="setCookie" onclick="setCookie()">
@@ -13,7 +13,9 @@
             
             // Create a cookie
             //document.cookie="username=Charlie Angels";
-            document.cookie="username="+prompt("Enter Cookie Username");
+            // document.cookie="username="+prompt("Enter Cookie Username")+";expires=20 Sun,Aug 2030 12:00:00 UTC";
+            document.cookie="username=Charlie Angels;expires=Sun,20 Aug 2030 12:00:00 UTC";
+       
         }
 
         function getCookie(){

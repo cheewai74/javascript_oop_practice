@@ -1,0 +1,58 @@
+<!-- 
+    1. Serialize the custom obj in a JSON string parse it and then store in a cookie.
+    2. For each name-value pair, use a separate cookie.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Store Different name-value pairs in a cookie using JSON</title>
+ </head>
+ <body>
+     Name: <input type="text" id="name"><br/>
+     Email: <input type="text" id="email"><br/>
+     Course: <input type="text" id="course"><br/>
+     <input type="button" value="Set Cookie" onclick="setCookie()">
+     <input type="button" value="Get Cookie" onclick="getCookie()">
+     <script>
+         function setCookie(){
+
+           var obj={}; // Creating custom object
+           obj.name = document.getElementById("name").value;
+           obj.email = document.getElementById("email").value;
+           obj.course = document.getElementById("course").value;
+
+           // Converting JavaScipt object to JSON String
+           var jsonString = JSON.stringify(obj);
+           document.cookie = jsonString;
+         }
+
+         function getCookie() {
+
+            if(document.cookie.length!=0){
+                //  Parsing JSON string to JSON obj
+                var obj = JSON.parse(document.cookie);
+
+                alert("Name="+obj.name+"Email="+obj.email+""+"Course="+obj.course);
+            }
+            else{
+                alert("Cookie not available");
+            }
+         }
+         
+         function getCookie(){
+             if(document.cookie.length!=0){
+                 // Invoking key-value pair stored in a cookie
+                 alert(document.cookie);
+             }
+             else{
+                 alert("Cookie not available");
+             }
+         }
+
+
+     </script>
+ </body>
+ </html>

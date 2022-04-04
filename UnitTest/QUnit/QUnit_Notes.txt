@@ -1,3 +1,7 @@
+https://ranskills.wordpress.com/2011/06/24/a-practical-introduction-to-client-side-javascript-unit-testing-using-qunit/
+
+https://www.tutorialspoint.com/qunit/qunit_basic_usage.htm
+
 https://qunitjs.com/
 
 npm install --save-dev qunit

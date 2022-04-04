@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP - Creating an object</title>
+    <script>
+        myNewObject = new Object();
+
+        //  Adding a property.
+        myNewObject.info = 'I am a shinny object';
+
+        //  Now your obj owns a property - incase a text string containing some
+        //  info about the obj called info.
+        function myFunc(){
+            alert(this.info);
+        }
+        myNewObject.showInfo = myFunc; // Create a method called showInfo on 
+                                       // myNewObject and assign myFunc() to that method.
+    </script>
+</head>
+<body>
+    <input type="button" value="Good showInfo Call" onclick="myNewObject.showInfo()" />
+
+    <!--  Becos myFunc is a method of the global obj (having been defined w/o reference to 
+          any other obj as parent.) -->
+    <input type="button" value="myFunc Call" onclick="myFunc()" />
+
+    <!-- Bcos the method does not exist outside the obj myNewObject, Java Script
+         reports an error. -->
+    <input type="button" value="Bad showInfo Call" onclick="showInfo()" />
+</body>
+</html>

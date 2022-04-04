@@ -1,3 +1,5 @@
+A function is a stand-alone function. A method is a function within an object.
+
 apply()     It is used to call a function contains this value and 
             a single array of arguments.
 

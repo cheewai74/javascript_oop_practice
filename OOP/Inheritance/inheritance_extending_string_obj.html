@@ -1,0 +1,31 @@
+<!--  
+
+    Prototype can also be used to extend JavaScript built in obj. You can implement the 
+    String.prototype.backwards mthod, for instance, that will return a reversed version
+    of any string you supply.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extending JavaScript's Own Object</title>
+    <script>
+        String.prototype.backwards = function(){
+            var out ='';
+            for (var i = this.length-1; i >=0; i--){ 
+                out += this.substr(i, 1);
+            }
+            return out;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var inString = prompt("Enter your test string: ");
+        document.write(inString.backwards());
+    </script>
+    
+</body>
+</html>

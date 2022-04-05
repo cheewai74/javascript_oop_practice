@@ -1,0 +1,25 @@
+<!-- 
+    jspmParse() is called when the page finish loading
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsing a JSON String</title>
+</head>
+<script>
+    function jsonParse(){
+        var inString = prompt("Enter JSON Object");
+        var out ="";
+        myObject = JSON.parse(inString);
+        for (i in myObject){
+            out += "Property: " + i + " = " + myObject[i] +'\n';
+        }
+        alert(out);
+    }
+</script>
+<body onload="jsonParse()">
+    
+</body>
+</html>

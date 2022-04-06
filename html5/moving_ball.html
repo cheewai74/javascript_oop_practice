@@ -1,0 +1,51 @@
+<!-- 
+
+    <canvas> tag gives you a retangular space in your page where you can
+    draw shapes and graphics, as well as load and display image files 
+    and control their display via javascript.
+
+    setInterval() is called repeatedly. Each time it's called, the 
+    canvas is cleared by using the clearRect() method across the full
+    size of the canvas element.
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving a ball using canvas</title>
+</head>
+<script>
+    var context;
+    var x=50;
+    var y=50;
+    var counter = 0;
+
+    function paint(){
+        context.beginPath();
+        context.fillStyle="#ff0000";
+        context.arc(x,y,15,0, Math.PI*2, false);
+        context.closePath();
+        context.fill();
+    }
+
+    function animate(){
+        context.clearRect(0,0,400,300);
+        counter++;
+        x += 20 * Math.sin(counter);
+        y += 20 * Math.cos(counter);
+        paint();
+    }
+
+    window.onload = function(){
+        context = canvas1.getContext('2d');
+        setInterval(animate, 100);
+    }
+</script>
+<body>
+    <canvas id="canvas1" width="400" height="300">
+        <p>Your browser doesn't support the canvas element.</p>
+    </canvas>
+</body>
+</html>

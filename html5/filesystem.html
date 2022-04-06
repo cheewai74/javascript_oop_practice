@@ -1,0 +1,55 @@
+<!-- 
+
+    1. File provides info including name, size, and MIME type, and gives a reference to 
+       the file handle.
+    2. FileList is an array-like sequence of Fle objects.
+    3. FileReader interface uses File and FileList to asynchronously read a file. You
+       can check on read progress, catch any errors and find out when a file is 
+       completely loaded.
+
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Local Files</title>
+     <style>
+         body {background-color: #ddd; font-family: Arial, Helvetica, sans-serif;}
+         #drop1{
+             width: 400px;
+             height: 200px;
+             border: 1px solid black;
+             background-color: white;
+             padding: 10px;
+         }
+     </style>
+     <script>
+         function allowDrop(ev){
+             ev.preventDefault();
+             
+         }
+
+         function drop(ev){
+             var files = ev.dataTransfer.files;
+             for(var i =0; i < files.length; i++){
+                 var f = files[i]
+                 var pnode = document.createElement("p");
+                 var tnode = document.createTextNode(f.name + " (" + f.type + ") "+f.size + " bytes");
+                 pnode.appendChild(tnode);
+                 ev.target.appendChild(pnode);
+             }
+             ev.preventDefault();
+         }
+
+         window.onload = function(){
+             var drophere = document.getElementById("drop1");
+             drophere.ondragover = allowDrop;
+             drophere.ondrop = drop;
+         }
+     </script>
+ </head>
+ <body>
+     <div id="drop1"></div>
+ </body>
+ </html>

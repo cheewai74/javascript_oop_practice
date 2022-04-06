@@ -1,1 +1,6 @@
 type ! , CTRL + SPACE, then click on it to create a html template.
+
+http://prototypejs.org/
+https://jquery.com/
+https://mootools.net/
+https://dojotoolkit.org/

@@ -1,4 +1,6 @@
-type ! , CTRL + SPACE, then click on it to create a html template.
+type ! , CTRL + SPACE, then click on it to create a html template. or 
+doc followed by TAB key
+
 
 http://prototypejs.org/
 https://jquery.com/

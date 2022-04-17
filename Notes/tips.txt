@@ -1,6 +1,7 @@
 type ! , CTRL + SPACE, then click on it to create a html template. or 
 doc followed by TAB key
 
+Chrome: CTRL SHIFT I to go to console log.
 
 http://prototypejs.org/
 https://jquery.com/

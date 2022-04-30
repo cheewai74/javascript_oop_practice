@@ -1,0 +1,6 @@
+A Promise is in one of these states:
+- pending: initial state, not fulfilled or rejected.
+- fullfilled: meaning that operation completed successfully.
+- rejected: meaning that operation failed.
+
+A Promise is a proxy for a value not necessary known when the promise is created.

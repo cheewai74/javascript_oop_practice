@@ -1,0 +1,6 @@
+...
+
+allows an expression to be expanded in places where 
+multiple args (for function calls) 
+or multiple elements (for array literals) or 
+multiple variables (for destructing assignment) are expected.

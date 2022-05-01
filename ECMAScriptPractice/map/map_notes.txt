@@ -1,0 +1,22 @@
+The Map obj is a simple key/value map.
+
+Use maps over object when keys are unknown until run time, 
+and when all keys are the same type and all values are the same type.
+
+Use maps in case if there is a need to store primitive value as keys bcos
+obj treats each key as a string whether it's a number value, boolean value 
+or any other primitive value.
+
+Use objs when there is logic that operates on individual elements.
+
+========================================================================
+
+The keys of an obj are Strings where they can be any value for a Map.
+
+You can get the size of a Map easily while you have to manually keep track of 
+size of an obj.
+
+The iteration of maps is in insertion order of the elements
+
+An obj has a prototype, so there are default keys in the map, ( this can be 
+bypassed using map = Object.create(null))

@@ -1,0 +1,13 @@
+Troubleshoot:
+SyntaxError: Cannot use import statement outside a module
+
+Solution:
+change main.js to main.mjs or add package.json
+
+{
+    "type": "module"
+}
+
+
+Reason
+Error was due to it was trying to load commonjs module instead on ES6 module.

@@ -1,0 +1,20 @@
+class keyword
+
+super keyword:
+- call functions on an obj's parent.
+
+extends keyword:
+- used in class declarations.
+- to create a class as a child of another class.
+
+constructor uses super keyword to call the constructor of a parent class.
+
+Hoisting, difference between functions and class. class has to be declared before it's object 
+being instantiated.
+
+static methods:
+- are called without instantiating their class.
+- are not callable when the class is instantiated.
+- often used to create utility functions for an application.
+
+inheritance:

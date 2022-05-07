@@ -1,0 +1,10 @@
+In javascript, an obj can inherit properties of another obj.
+The obj from where properties are inherited is called prototype. 
+In short, objs can inherit properties from other objs - the prototypes.
+
+Every obj in javascript has an internal property called [[Prototype]].
+
+Javascript is a prototype-based language, meaning obj properties and methods 
+can be shared through generalized objs that have the ability to be cloned and extended.
+
+When it comes in inheritance, JavaScript has only 1 structure: objs.

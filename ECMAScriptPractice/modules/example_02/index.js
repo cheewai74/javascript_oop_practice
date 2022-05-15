@@ -1,6 +1,6 @@
 let module1 = require('./module1');
 let module2 = require('./module2');
-let module3 = require('./module3');
+let module3 = require('./Product');
 
 console.log('Age: '+module1.age);
 console.log('Full Name: '+module1.fullName);

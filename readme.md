@@ -11,3 +11,5 @@ node-venv activate
 
 npm install uniq
 node > .editor
+
+https://eslint.org

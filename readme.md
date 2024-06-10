@@ -13,3 +13,6 @@ npm install uniq
 node > .editor
 
 https://eslint.org
+
+.eslintrc.js
+rules:

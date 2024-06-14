@@ -16,3 +16,12 @@ https://eslint.org
 
 .eslintrc.js
 rules:
+
+
+# Start of project
+npm init
+npm init @eslint/config@latest
+
+# html
+Type ! followed by ENTER key
+

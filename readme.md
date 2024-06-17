@@ -25,3 +25,7 @@ npm init @eslint/config@latest
 # html
 Type ! followed by ENTER key
 
+1. mkdir folder-name
+2. npm init --yes
+3. npm i eslint -DE
+4. npm run lint

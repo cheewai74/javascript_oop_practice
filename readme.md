@@ -29,3 +29,6 @@ Type ! followed by ENTER key
 2. npm init --yes
 3. npm i eslint -DE
 4. npm run lint
+
+# Javascript Resources
+1. https://httpbin.org/
